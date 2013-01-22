@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link id="base_stylesheet" rel="stylesheet" type="text/css" href="css/base.css" />
+<title>RedmineViewer</title>
+
+<script src="lib/jquery.min.js"></script>
+<script src="lib/base.js"></script>
+
+
+</head>
+
+
+<body>
+
+  <div>
+    URL:<input type="text" name="url" id="url"/>
+    <button type="button" onclick="saveBaseUrl($('#url').val())">セット</button>
+  </div>
+  <div>
+    Key:<input type="text" name="url" id="auth-key"/>
+    <button type="button" onclick="saveAuthKey($('#auth-key').val())">セット</button>
+  </div>
+
+  <button type="button" onclick="testGet()">テスト</button>
+  <textarea id="debug-area"></textarea>
+
+
+</body>
+</html>

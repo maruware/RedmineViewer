@@ -1,0 +1,12 @@
+{
+   "browser_action": {
+      "default_icon": "img/icon32.png",
+      "default_popup": "popup.html?popup",
+      "default_title": "RedmineViewer"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com;; object-src 'self'",
+   "description": "__MSG_extDescription__",
+   "manifest_version": 2,
+   "name": "RedmineViewer",
+   "version": "0.0.0.1"
+}
