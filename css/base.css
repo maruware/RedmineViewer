@@ -1,0 +1,9 @@
+
+
+.issue-list, .issue-list td, .issue-list th{
+	border: 1px solid #ccc;
+}
+
+body{
+	width:400px;
+}

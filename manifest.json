@@ -4,9 +4,10 @@
       "default_popup": "popup.html?popup",
       "default_title": "RedmineViewer"
    },
-   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com;; object-src 'self'",
+   "content_security_policy": "script-src 'self' ; object-src 'self'",
    "description": "__MSG_extDescription__",
    "manifest_version": 2,
    "name": "RedmineViewer",
-   "version": "0.0.0.1"
+   "version": "0.0.0.1",
+   "permissions": [ "http://*/"]
 }
